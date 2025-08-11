@@ -25,14 +25,19 @@ nav{
     padding: 20px 7%;
 }
 .logo{
-    width: 140px;
+    width: 150px;
     cursor: pointer;
+    height: auto;
 }
-
 .nav-links  li{
     list-style: none;
     display: inline-block;
     margin: 10px 30px;
+}
+.nav-links  li:hover{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 90px;
 }
 .nav-links li a{
     text-decoration: none;
@@ -45,6 +50,9 @@ nav{
     border-radius: 20px;
     text-decoration: none;
     font-size: 15px;
+}
+.register-btn:hover{
+    background-color: #ff5361;
 }
 .container{
     padding: 0 7%;
@@ -94,6 +102,19 @@ nav{
 }
 .search-bar form button label{
     font-weight: 600
+}
+.ctr p{
+    background: #007076;
+    color: white;
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    text-align: center;
+    margin: 10px auto -70px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 20px;
+    
 }
 
 /* exclusives -part */
@@ -198,7 +219,7 @@ nav{
     max-width: 350px;
     display: block;
     text-align: center;
-    margin: 60px auto;
+    margin: 60px auto -40px;
     padding: 15px;
     border-radius: 30px;
     font-size: 20px;
