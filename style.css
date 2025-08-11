@@ -28,6 +28,7 @@ nav{
     width: 150px;
     cursor: pointer;
     height: auto;
+    margin-top: -45px;
 }
 .nav-links  li{
     list-style: none;
@@ -295,7 +296,7 @@ nav .ri-menu-line{
         display: inline-block;
         width: 100%;
         padding: 100px 7% 0;
-        background: black;
+        background: rgb(6, 1, 57);
         text-align: right;
         max-height: 100px;
         overflow: hidden;
