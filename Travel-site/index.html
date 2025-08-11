@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel-Mind</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
-        <nav>
+        <nav id="navBar">
             <img src="image/logo.jpg" class="logo">
             <ul class="nav-links">
-                <li><a href="#">Popular Places</a></li>
+                <li><a href="#" class="active">Popular Places</a></li>
                 <li><a href="#">Travel Outside</a></li>
                 <li><a href="#">Omline Packages</a></li>
             </ul>
             <a href="#" class="register-btn">Resister Now</a>
+            <i class="ri-menu-line"  onclick="togglebtn()"></i>
         </nav>
         <div class="container">
             <h1>Find your next location</h1>
@@ -136,7 +140,50 @@
                 <h3>Paries</h3>
             </div>
         </div>
+        <div class="cta">
+            <h3>Sharing Is Earning Now</h3>
+            <p>Great Opportunity to make money by sharing your extra space.</p>
+            <a href="#" class="cta-btn">Know More</a>
+        </div>
+        <h2 class="sub-title">Travellers Stories</h2>
+        <div class="stories">
+            <div>
+                <img src="image/storypic1.jpg">
+                <p>Popular European Countries with a budget of just $15,000</p>
+            </div>
+            <div>
+                <img src="image/storypic2.jpg">
+                <p>Popular European Countries with a budget of just $15,000</p>
+            </div>
+            <div>
+                <img src="image/paries.jpg">
+                <p>Popular European Countries with a budget of just $15,000</p>
+            </div>
+        </div>
+
+        <a href="#" class="Start-btn">Start making money</a>
+        <div class="about-msg">
+            <h2>About Stsybnb</h2>
+             <p>Traveling is an enriching experience, offering diverse learning and personal growth opportunities. According to Brainly.in, it broadens perspectives, exposing individuals to new cultures, languages, and cuisines. Exploring different places fosters understanding, acceptance, and appreciation for global diversity. Furthermore, traveling can enhance resourcefulness and problem-solving skills, as individuals navigate unfamiliar situations. Ultimately, it leaves lasting impressions and strengthens connections with the world and its people</p>
+        </div>
+
+        <div class="footer">
+            <a href="https://instagram.com/" target="_blank"><i class="ri-instagram-line"></i></a>
+            <a href="https://youtube.com/" target="_blank"><i class="ri-youtube-line"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i class="ri-facebook-fill"></i></a>
+            <a href="https://google.com/" target="_blank"><i class="ri-google-line"></i></a>
+            <a href="https://linkedin.com/" target="_blank"><i class="ri-linkedin-line"></i></a>
+            <hr>
+            <p>Copyright 2025, Easy Tutorials.</p>
+        </div>
     </div>
-    
+
+    <script>
+        var navBar =document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
 </body>
 </html>
